@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {margin-top: 100px; margin-left: 350px;}
+        .submit {transition: 1s; width: 100px; height: 50px;; padding: 5px; border-radius: 30px; color: coral; border: 3px solid coral; transition: 1s;  display: flex; justify-content: center;}
+        .submit:hover {color: white; transform: scale(1.5); background-color: coral;}
+        .befo:active::before {content: '✅';}
+
+    </style>
+</head>
+<body>
+    <button class="submit" type="button">
+        <p class="befo"><span></span>Submit</p>
+    </button>
+</body>
+</html>

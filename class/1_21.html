@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        img {transform: translate(200px);}
+        img {transform: scale(2);}
+        img {transform: rotate(90deg);}
+
+        /*or bunch them!*/
+
+        img {transform: translate(200px) scale(2) rotate(90deg);}
+
+        .cloud {transition: 1s;}
+        .cloud:hover { background-color: brown; transform: rotate(320deg)}
+
+        .cloud {        animation-name: cloud; animation-duration:3s;}
+
+        @keyframes cloud {
+            from {transform: translateX(0);}
+            to { transform: translateX(500px)}
+        }
+
+    </style>
+</head>
+<body>
+    
+</body>
+</html>
