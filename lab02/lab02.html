@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {background-color:#E38E49; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+        h1 {color:#0A3981 ;}
+    
+        strong {color:#E38E49}
+
+        .images {display:flex; flex-wrap: wrap;}
+    
+        .images div {flex: 1;}
+
+        img{width: 100%; min-width: 250px;}
+        .chillblue {background-color: #D4EBF8; border-radius: 10px; padding: 20px;margin: 20px;}
+
+        .center {margin: 0px 5%;}
+
+        h1 {animation: push 2s, spin 3s, enlargen 5s;
+        animation-delay: 0s, 2s, 4s;
+        position:relative
+    }
+
+    article {width: 280px; height: 60px}
+
+    @keyframes push {
+        from{top: -400px}
+        to{top: 0px}
+    }
+
+    @keyframes spin {
+        from{transform: rotateY(0deg);}
+        to{transform: rotateY(360deg);}
+    }
+
+    @keyframes enlargen {
+        0% {transform: scale(1);}
+        50% {transform: scale(1.5)}
+        100% {transform: scale(1)}
+    }
+
+
+    </style>
+</head>
+<body>
+
+<main class="chillblue">
+
+<div class="center">
+
+<article><h1>Dean Lourenco</h1></article>
+
+    <p>Something <strong>personal</strong> is that once went on a longboard ride that was 30 miles. <strong>Professionally</strong>, I am hoping to grow an apparel brand this semester. I would say that it is <strong>peculiar</strong> that I really like cheese.</p>
+
+    <div class="images">
+        <div><img src="Port_Square.jpeg" alt="Portrait"></div>
+        <div><img src="Skate_Square.jpeg" alt="Cheese"></div>
+    </div>
+    <div class="images">
+        <div><img src="Shirt_Square.jpeg" alt="Shirt On Wall"></div>
+        <div><img src="Cheese_Square.jpeg" alt="Cheese Platter"></div>
+    </div>
+
+
+
+</div>
+</main>
+</body>
+</html>
