@@ -1,0 +1,33 @@
+@import "partial/variables";
+@import "partial/reset";
+@import "partial/mixins";
+
+h1 {color: white; font-size: 1.5em;}
+
+
+
+header {background-color: $orange_color; padding: 20px; text-align: center;}
+
+body {margin: 0%; font-family: Arial, Helvetica, sans-serif;}
+
+nav {margin-top: 20px;}
+nav a {color: white; text-decoration: none; padding: 20px;}
+
+.flexes { p {color: red; }
+    
+    display: flex;padding: 12px; text-align: center; max-width: 100%; flex-wrap: wrap; flex-grow: inherit;}
+.flexes img {width: 200px; height: 200px; }
+.recipes {@include thumbnails; margin:0 5px; padding: 0px 0px 30px 0px; border-radius: 30px;}
+.recipes h2 {margin-top: 30px;}
+h2 {color: red;}
+.newsletter {@include thumbnails; background-color: #e4fdc3; padding: 20px; text-align: center; border-radius: 10px; margin: 0px 20px 0px 20px;}
+.newsletter p {margin-top: 20px;}
+.newsletter input {border-color: #e89b6a; width: 40%; margin-top: 20px;}
+.newsletter button {background-color: #e89b6a; color: white; border: none; margin-top: 20px; padding: 10px;}
+.bigass {width: 100%;margin: 20px; border-radius: 20px; }
+.about {text-align: center; margin-top: 30px; margin-bottom: 30px; }
+.about h2 {font-size: 1.5em;}
+.about p {margin-top: 30px}
+.about button {margin-top: 30px; background-color: #e89b6a; color: white; border: none; padding: 10px;}
+footer {background-color: $mint_color; padding: 20px; text-align: center;}
+footer p {color: white;}
