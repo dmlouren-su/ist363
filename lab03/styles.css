@@ -133,6 +133,7 @@ nav a {
   max-width: 100%;
   flex-wrap: wrap;
   flex-grow: inherit;
+  width: 100%;
 }
 .flexes p {
   color: red;
