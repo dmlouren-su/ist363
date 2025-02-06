@@ -1,0 +1,15 @@
+header {background-color: #e89b6a; padding: 20px; text-align: center;}
+
+body {margin: 0%; font-family: Arial, Helvetica, sans-serif;}
+
+nav a {color: white; text-decoration: none; padding: 20px;}
+
+.flexes {display: flex; flex: 1;padding: 12px; text-align: center;}
+.flexes img {width: 200px; height: 200px; }
+.flexes p {color: red; }
+h2 {color: red;}
+.newsletter {background-color: #e4fdc3; padding: 20px; text-align: center; border-radius: 10px; margin: 0px 20px 0px 20px;}
+.newsletter input {border-color: #e89b6a; width: 40%;}
+.newsletter button {background-color: #e89b6a; color: white; border: none;}
+.bigass {width: 100%;}
+.about {text-align: center;}

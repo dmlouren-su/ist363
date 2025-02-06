@@ -1,0 +1,29 @@
+.isometric-container {
+    position: relative;
+    width: 200px;
+    height: 100px;
+    transform: rotateX(45deg) rotateZ(45deg);
+    transform-style: preserve-3d;
+  }
+  
+  .face {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+  }
+  
+  .top {
+    background: #3498db;
+    transform: translateZ(50px);
+  }
+  
+  .left {
+    background: #2980b9;
+    transform: rotateY(-90deg) translateX(-100px) translateZ(50px);
+  }
+  
+  .right {
+    background: #1f618d;
+    transform: rotateX(90deg) translateY(-100px) translateZ(100px);
+  }
+  
