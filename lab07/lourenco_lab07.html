@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Lab07</title>
+</head>
+<body>
+    <!--Internal JS-->
+
+    <script> // #1
+        let favNumber = 8;
+        console.log("My favorite number is "+favNumber+".");
+    </script>
+
+    <script> // #2
+        let favoriteFoods = ["popcorn", "butter", "salt", "pepper"];
+        console.log(favoriteFoods[1]);
+        favoriteFoods.push("ice cream")
+        console.log(favoriteFoods)
+    </script>
+
+    <script> // #3
+        for (let i = 0; i < favoriteFoods.length; i++) {
+            console.log("Favorite Food "+[i + 1]+": "+favoriteFoods[i]+"");
+        }
+    </script>
+
+<script> // #4
+
+    for (let i = 0; i < favoriteFoods.length; i++) {
+        if (i != 1 ){console.log("Favorite Food "+[i + 1]+": "+favoriteFoods[i]+"");}
+         
+        
+    }
+</script>
+
+<script> // #5
+    let book = {
+        title: "Good Stories are Bad Lives",
+        author: "Dean Lourenco",
+        yearPublished: "2024",
+        isAvailable: true,
+    }
+    console.log(book.title, book.author)
+
+    if (book.isAvailable = true) {console.log("This book is available for checkout.")}
+    else {console.log("Sorry, this book is currently checked out.")}
+</script>
+
+<script> //#6
+    let x = 20;
+    while (x <= 20) {
+        console.log(x);
+        x =+ 2
+    }
+  
+</script>
+</body>
