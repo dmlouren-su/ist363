@@ -45,11 +45,11 @@
     console.log(book.title, book.author)
 
     if (book.isAvailable = true) {console.log("This book is available for checkout.")}
-    else {console.log("Sorry, this book is currently checked out.")}
+    if (book.isAvailable != true) {console.log("Sorry, this book is currently checked out.")}
 </script>
 
 <script> //#6
-    let x = 20;
+    let x = 2;
     while (x <= 20) {
         console.log(x);
         x =+ 2
