@@ -51,7 +51,7 @@
   </main>
 
   <footer>
-    <p>Created by Dean Lourenco - A small webpage to help lift you up, wheter you need somehting to pass time or just general advice.</p>
+    <p>Created by Dean Lourenco - A small webpage to help lift you up, whether you need something to pass time or some uplifting words. </p>
   </footer>
 
   <script>
@@ -71,7 +71,7 @@
           list.appendChild(listItem);
         } catch (err) {
           const errorItem = document.createElement('li');
-          errorItem.textContent = 'Error fetching activity.';
+          errorItem.textContent = 'Error - problem fetching';
           list.appendChild(errorItem);
           console.error(err);
         }
@@ -86,7 +86,7 @@
         const data = await response.json();
         document.getElementById('advice-slip').textContent = data.slip.advice;
       } catch (err) {
-        document.getElementById('advice-slip').textContent = 'Oops! Something went wrong.';
+        document.getElementById('advice-slip').textContent = 'Error - problem fetching.';
         console.error(err);
       }
     }
